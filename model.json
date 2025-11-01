@@ -1,0 +1,30 @@
+{
+  "services": {
+    "ai": {
+      "provider": "web4",
+      "model": "gpt-5",
+      "methods": {
+        "ask": {
+          "description": "Ask GPT a question",
+          "params": ["prompt"]
+        },
+        "summarize": {
+          "description": "Summarize text",
+          "params": ["text"]
+        }
+      }
+    },
+    "sys": {
+      "methods": {
+        "info": {
+          "description": "Get system info",
+          "params": []
+        },
+        "uptime": {
+          "description": "Get system uptime",
+          "params": []
+        }
+      }
+    }
+  }
+}
