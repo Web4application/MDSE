@@ -1,4 +1,3 @@
-Forgejo v13.0.2 contains critical security fixes. Originally scheduled for 7 November, the release date of these patches was advanced because a vulnerability had been leaked publicly.
 
 ### Vulnerability (**Critical**): prevent writing to out-of-repo symlink destinations while evaluating template repos
 - [CVSS 9.5 Critical](https://www.first.org/cvss/calculator/4-0#CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H)
